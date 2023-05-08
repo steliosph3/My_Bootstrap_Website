@@ -97,6 +97,16 @@
     max-width: 70%;
     height: auto;
   }
+
+  .table-responsive {
+    background:#FFCC00;
+  }
+
+  .drinks {
+    color:#2E302F;
+    font-weight: 700;
+    font-size: 23px;
+    }
   
 
   @media (min-width: 768px) {
