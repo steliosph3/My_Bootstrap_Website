@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar{
+    background-color: #FFCC00;
+}
+
+.nav-link{
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #2E302F;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #2E302F;
+}
+
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #2E302F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.nav-link:hover{
+    color: #ffff;
+}
+
+/* Landing Page */
+
+.main{
+    background: url(images/landingpage.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+/* About Us */
+
+.about {
+    background-color: #FFCC00;
+    font-family: 'Signika', sans-serif;
+}
+
+.btn1 {
+    height: 45x;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #2E302F;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+
+/* Menu */
+
+
+
+.display-4 {
+    font-family: 'Signika', sans-serif;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+ 
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .btn-outline-warning {
+    background-color: #2E302F;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
