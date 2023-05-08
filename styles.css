@@ -8,9 +8,16 @@
 
 /* Navbar */
 
+
+
+
+
 .navbar{
     background-color: #FFCC00;
+    transition: background-color 0.3s ease-in-out;
+
 }
+
 
 .nav-link{
     font-family: 'Signika', sans-serif;
