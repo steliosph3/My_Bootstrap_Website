@@ -65,17 +65,18 @@
     font-family: 'Signika', sans-serif;
 }
 
-.btn1 {
-    height: 45x;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: #2E302F;
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-
+.btn-custom {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFCC00;
+  color: #2E302F;
 }
+
+.btn-custom:hover {
+  background-color: #2E302F;
+  color: #FFCC00;
+}
+
 
 /* Menu */
 
